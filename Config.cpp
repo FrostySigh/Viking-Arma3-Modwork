@@ -201,8 +201,8 @@ class cfgWeapons
 		mass=2;
 		scopeArsenal=2;
 		author="Viking Warrior";
-		picture="\Viking_Warrior\ARMA_3_Armour\Dunce_cap\Dunce_cap.paa";
-		model="\@Test\Dunce_Cap_Helmet\Dunce_cap.p3d";
+		picture="\Viking_Warrior\ARMA_3_Armour\Dunce_cap\Dunce_cap.paa"; //Where is this in relation to the config file?
+		model="\Dunce_Cap_Helmet\Dunce_cap.p3d";
 		descriptionShort="A Dunce Cap for all the Dunces";
 		hiddenSelections[]   											= 
 		{
@@ -210,18 +210,18 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]= 
 		{
-			"\@Test\Dunce_Cap_Helmet\Dunce_Cap_Texture.paa",
+			"\Dunce_Cap_Helmet\Dunce_Cap_Texture.paa",
 		};
 		class ItemInfo: HeadgearItem
 		{				
-			uniformModel												= "\@Test\Dunce_Cap_Helmet\Dunce_cap.p3d";
+			uniformModel= "\Dunce_Cap_Helmet\Dunce_cap.p3d";
 			hiddenSelections[]=
 			{
 				"camo",
 			};
 			hiddenSelectionsTextures[]   								= 
 			{
-				"custom_armours\data\Marines\Helmet\helmet_alpha_co.paa",
+				"\Dunce_Cap_Helmet\Dunce_Cap_Texture.paa",
 			};
 			ace_hearing_protection = 1.50;  // Protection against deafening (0 to 1, higher means more protection)
 			ace_hearing_lowerVolume = 0.10;  // Muffling of the sound (0 to 1, higher means more muffling)
